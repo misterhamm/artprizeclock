@@ -35,4 +35,7 @@ body {
     right: -93px;
 }
 
-
+.message {
+    text-align: center;
+    font-size: 3em;
+}
