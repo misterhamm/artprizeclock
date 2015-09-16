@@ -2,7 +2,7 @@ var clock;
 			
 			$(document).ready(function() {
 				// Set dates.
-				var futureDate  = new Date("September 23, 2015 12:00 PM EDT");
+				var futureDate  = new Date("September 1, 2015 12:00 PM EDT");
 				var currentDate = new Date();
 
 				// Calculate the difference in seconds between the future and current date
