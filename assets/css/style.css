@@ -1,5 +1,43 @@
+body {
+    background-image: url(../images/9865408713_aab4970b79_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .title {
     text-align: center;
     font-size: 2.5em;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
+
+.clock {
+    font-size: 1.5em;
+}
+
+.clock-container {
+    background-color: rgba(0,0,0,0.7);
+    padding: 2em 0;
+    color: #FAEBD7;
+}
+
+.flip-clock-divider.seconds .flip-clock-label {
+    right: -110px;
+    color: #FAEBD7;
+}
+
+.flip-clock-divider.minutes .flip-clock-label {
+    right: -105px;
+    color: #FAEBD7;
+}
+
+.flip-clock-divider.hours .flip-clock-label {
+    right: -97px;
+    color: #FAEBD7;
+}
+
+.flip-clock-divider.days .flip-clock-label {
+    right: -93px;
+    color: #FAEBD7;
+}
+
+
